@@ -29,21 +29,7 @@ void quicksort(int arr[] , int a, int b){
 void quicksort1(int a[] , int longitud){
 	quicksort(a, 0, longitud-1);
 	}
-/**
-Funcions que genra un numero aleatorio para el pivote
-*/
-int generaRandom(int inicio, int final){
-	int numero, i;
-	int limite_superior = final+1;
-	int limite_inferior = inicio;
-	int intervalo = limite_superior - limite_inferior;
-	srand(time(NULL));
-	for(i = 1; i<100; i++){
-		numero = 1 + rand() % (intervalo);
 
-	}
-	return numero;
-} 
 
 int main(){
 	int numeros = 0;
