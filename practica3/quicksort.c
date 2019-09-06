@@ -22,10 +22,6 @@ void quicksort(int arr[] , int a, int b){
                 	j--;
                 if ( i <= j) {
                 	swap(&arr[i], &arr[j]);
-                	/**
-                	int tmp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = tmp;*/
                     i++;
                     j--;
                 }
